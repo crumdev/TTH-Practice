@@ -26,9 +26,24 @@
             
             </fieldset>
             <fieldset>
-                <span class="number">2</span>
+                <legend><span class="number">2</span> Your profile</legend>
                 <label for="bio">Bio:</label>
                 <textarea id="bio" name="user_bio"></textarea>
+                <select id="job" name="user_job">
+                    <optgroup label="Web">
+                        <option value="frontend_developer">Front-End Developer</option>
+                        <option value="php_developer">PHP Developer</option>
+                        <option value="python_developer">Front-End Developer</option>
+                    </optgroup>
+                    <optgroup label="Mobile">
+                        <option value="ios_developer">iOS Developer</option>
+                        <option value="android_developer">Android Developer</option>
+                    </optgroup>
+                    <optgroup label="Design">
+                        <option value="web_designer">Web Designer</option>
+                        <option value="ux_designer">UX Designer</option>
+                    </optgroup>
+                </select>
                 
                 <button type="submit" id="submit">Sign Up</button>
                 <button type="reset" id="reset">Reset</button>
