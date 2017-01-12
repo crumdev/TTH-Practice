@@ -7,22 +7,30 @@ body {
     color: #3a3a3a;
 }
 
-
 a {
     color: #fff;
     text-decoration: none;
 }
 
+
 /*
  * Base Layout Styles
  */
 
+
 /* --- Navigation --- */
+
 .name {
     margin: 0;
 }
 
+
 /* --- Layout Containers --- */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
 
 .main-header {
     background: #3acec2;
@@ -32,16 +40,12 @@ a {
 .main-footer {
     padding: 2em 0;
     background: #d9e4ea;
+    text-align: center;
 }
-
-.wrapper {
-    width: 70%;
-    margin: 0 auto;
-}
-
-
 
 /* Fullpage background image */
+
+
 /*
 html {
     background: url(http://www.planwallpaper.com/static/images/518079-background-hd.jpg) no-repeat center center fixed;
@@ -51,5 +55,3 @@ html {
     background-size: cover;
 }
 */
-
-
