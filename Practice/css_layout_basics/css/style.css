@@ -101,4 +101,9 @@ html {
     .main-nav li {
         display: inline-block;
     }
+    .col {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
  }
