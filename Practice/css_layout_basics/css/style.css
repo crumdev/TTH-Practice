@@ -26,6 +26,27 @@ a {
 .name {
     margin: 0;
 }
+name, .main-nav li {
+    text-align: center;
+    background: #fff;
+    margin: 6px 3px;
+    padding: 3px 10px;
+}
+.main-nav a {
+    font-size: 1em;
+    color: #3acec2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-nav a:hover {
+    color: #093a58;
+}
+
+.name a,
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+}
 
 
 /* --- Layout Containers --- */
@@ -36,8 +57,11 @@ a {
 }
 
 .main-header {
+    text-align: center;
     background: #3acec2;
-    padding: 1em 0;
+    padding-top: 1.5em;
+    padding-bottom:1.5em;
+    margin-bottom: 30px;
 }
 
 .main-footer {
@@ -71,5 +95,10 @@ html {
         width: 70%;
         max-width:1000px;
         margin: 0 auto;
+    }
+    
+    .name,
+    .main-nav li {
+        display: inline-block;
     }
  }
