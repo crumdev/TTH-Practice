@@ -98,9 +98,33 @@ a {
 	}
 
 	.container {
-		width: 85%;
-		max-width: 1150px;
+		width: 95%;
+		max-width: 1350px;
 		margin: 0 auto;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		float: left;
+		margin-left: 12px;
+	}
+
+	.name {
+		float: left;
+	}
+
+	.primary {
+		width:40%;
+	}
+	.secondary {
+		width:60%;
+	}
+	.col {
+		float: left;
+		padding:0 1em;
 	}
 
 	.feat-img {
@@ -111,6 +135,12 @@ a {
 		margin-bottom: 25px;
 		padding: 10px;
 		border: solid 1px #d9e4ea;
+	}
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
 	}
 
 }
