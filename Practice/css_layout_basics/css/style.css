@@ -104,6 +104,7 @@ html {
     .col {
         display: inline-block;
         width: 50%;
-        float: left;
+        margin-right:-4px;
+        vertical-align: top;
     }
  }
